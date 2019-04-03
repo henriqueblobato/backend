@@ -45,4 +45,6 @@ localhost:8888/foto/2
 ### Todos
  - Relacionar id de imagem com animal cadastrado
  - Inserção no banco pelos models
+ - Cadastros na tela inicial
+ - Exibição de imagens na tela inicial
 ----
