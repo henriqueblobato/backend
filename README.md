@@ -13,7 +13,7 @@ $ pip3 install tornado torndb sqlite3
 
 Página principal
 ```sh
-localhost:8000
+localhost:8888
 ```
 Cadastro de Animais Abandonados
 ```sh
