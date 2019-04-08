@@ -8,6 +8,9 @@ Instalação das dependências
 
 ```sh
 $ pip3 install tornado torndb sqlite3
+$ git clone https://github.com/henriqueblobato/backend.git
+$ cd backend
+$ python3 index.py
 ```
 ### Usage
 
@@ -28,7 +31,7 @@ $ curl -X POST localhost:8888/CadastraAnimal --data "name=Teste&approximate_age=
 Exemplo:
 $ curl -X POST localhost:8888/CadastraCliente --data "name=ClienteTest&last_name=SObrenomeTeste&RG='987896541'&proof_of_address='Y'&email='asd@asd.com'&phone='11985236547'"
 ```
-##### Exibição de Imagens dos animais + informações do animal
+##### Exibição de imagens e informações dos animais
 
 ```sh
 Exemplo:
