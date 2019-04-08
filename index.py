@@ -90,9 +90,9 @@ if __name__ == "__main__":
                 (r"/", RequestHandlerRaiz),
                 (r"/CadastraAnimal",  RequestHandlerCadastraAnimal),
                 (r"/CadastraCliente", RequestHandlerCadastraCliente),
-                (r"/ListaClientes", RequestHandlerListaClientes),
-                (r"/ListaAnimais", RequestHandlerListaAnimais),
-                (r"/foto/([0-9]+)", RequestHandlerFoto)
+                (r"/ListaClientes",   RequestHandlerListaClientes),
+                (r"/ListaAnimais",    RequestHandlerListaAnimais),
+                (r"/foto/([0-9]+)",   RequestHandlerFoto)
             ])
         app.listen(8888)
         print('Listening on localhost:8888')
