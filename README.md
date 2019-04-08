@@ -20,7 +20,7 @@ localhost:8000/
 ##### Cadastro de Animais Abandonados
 ```sh
 Exemplo:
-$ curl -X POST localhost:8888/CadastraAnimal --data "name=Teste&approximate_age=2&typeA=XG&rescue_date='2018-08-05'&adoption_date='2018-08-10'&porte=S&vaccinated=Y"
+$ curl -X POST localhost:8888/CadastraAnimal --data "name=Teste&approximate_age=2&typeA=XG&rescue_date='2018-08-05'&adoption_date='2018-08-10'&porte=S&vaccinated=Y&img_dir='../img/1.png'"
 ```
 
 ##### Cadastro de Clientes
